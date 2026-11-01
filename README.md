@@ -17,6 +17,8 @@ Built with plain HTML, CSS and JavaScript. No build step. Hosted on GitHub Pages
 
 ## Editing
 
+After changing `style.css` or `script.js`, bump the `?v=` number on their links in `index.html` (for example `style.css?v=3`). Otherwise visitors' browsers may keep using the old cached file for a while.
+
 The Education section is commented out in `index.html`. Fill in your details, remove the comment markers and add an Education link to the nav.
 
 ## Links
