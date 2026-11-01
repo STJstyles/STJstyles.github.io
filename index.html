@@ -3,217 +3,277 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>N Sai Tharun Janardhan | Game Developer</title>
-  <meta name="description" content="N Sai Tharun Janardhan, entry-level Game Developer working in Unity, C# and VR. Projects, skills, experience and contact.">
-  <meta property="og:title" content="N Sai Tharun Janardhan | Game Developer">
-  <meta property="og:description" content="Unity and C# game developer with hands-on game jam and VR project experience.">
-  <meta property="og:image" content="assets/assistant-bobo.jpg">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236d4aff'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3EST%3C/text%3E%3C/svg%3E">
+  <title>STJ Styles | N Sai Tharun Janardhan, Game Developer</title>
+  <meta name="description" content="N Sai Tharun Janardhan (STJ Styles), game developer in Bengaluru specializing in VR experiences and Unity. Projects, skills, experience and contact.">
+  <meta name="theme-color" content="#09090b">
+  <meta property="og:title" content="STJ Styles | Game Developer">
+  <meta property="og:description" content="Unity and VR game developer. Made Assistant Bobo for BYOG 2025.">
+  <meta property="og:image" content="https://stjstyles.me/assets/assistant-bobo.jpg">
+  <meta property="og:url" content="https://stjstyles.me/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%23a855f7'/%3E%3Cstop offset='1' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3EST%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Instrument+Sans:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Icons (from Lucide, ISC license), reused with <use href="#i-name"> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-gamepad" viewBox="0 0 24 24"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></symbol>
+    <symbol id="i-glasses" viewBox="0 0 24 24"><circle cx="6" cy="15" r="4"/><circle cx="18" cy="15" r="4"/><path d="M14 15a2 2 0 0 0-2-1 2 2 0 0 0-2 1"/><path d="M2.5 13 5 7c.7-1.3 1.4-2 3-2"/><path d="M21.5 13 19 7c-.7-1.3-1.5-2-3-2"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  </svg>
+
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="#top">Sai Tharun<span>.</span></a>
-      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav id="navLinks" class="nav-links" aria-label="Main">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">STJ Styles</a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#top">Home</a>
         <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">Dark</button>
+        <div class="nav-socials">
+          <a href="https://github.com/STJstyles" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i"><use href="#i-github"/></svg></a>
+          <a href="https://www.linkedin.com/in/stjstyles/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="i"><use href="#i-linkedin"/></svg></a>
+          <a href="#contact" aria-label="Email"><svg class="i"><use href="#i-mail"/></svg></a>
+        </div>
       </nav>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+        <svg class="i icon-open"><use href="#i-menu"/></svg>
+        <svg class="i icon-close"><use href="#i-close"/></svg>
+      </button>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO -->
+    <!-- ===== HERO ===== -->
     <section class="hero" id="top">
-      <div class="container hero-inner">
-        <p class="status"><span class="dot"></span> Open to Junior Game Developer and Unity Developer roles</p>
-        <h1>N Sai Tharun Janardhan</h1>
-        <p class="role">Game Developer <span>·</span> Unity <span>·</span> C# <span>·</span> VR</p>
-        <p class="lede">I build games and VR experiences in Unity with C#. I've shipped a game jam entry, a Unity game and a VR interaction project, and I'm learning Unreal Engine next.</p>
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/hero.jpg" alt="" width="1920" height="1083">
+      </div>
+      <div class="container hero-content">
+        <p class="pill"><span class="dot"></span> Open to internships and full-time roles</p>
+        <p class="hero-name">N Sai Tharun Janardhan</p>
+        <h1><span class="grad-hero">Game Developer</span></h1>
+        <p class="hero-sub">Specializing in VR Experiences <span>•</span> Unity</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">View projects</a>
-          <a class="btn btn-outline" id="resumeBtn" href="resume.pdf" target="_blank" rel="noopener" hidden>Download resume</a>
-          <a class="btn btn-outline" href="#contact">Contact me</a>
-        </div>
-        <ul class="facts" aria-label="Quick facts">
-          <li><strong>3</strong><span>projects built</span></li>
-          <li><strong>1</strong><span>game jam</span></li>
-          <li><strong>VR</strong><span>interaction work</span></li>
-          <li><strong>C#</strong><span>main language</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="container about">
-        <div>
-          <p class="eyebrow">About me</p>
-          <h2>Hands-on game developer, ready to join a team</h2>
-        </div>
-        <div class="about-text">
-          <p>I'm an aspiring game developer focused on Unity and C#. I learn by building: each project on this page taught me a part of game production, from gameplay scripting and VR interaction to making 2D art under a game jam deadline.</p>
-          <p>I'm looking for an entry-level or junior role where I can contribute to real projects, learn from senior developers and grow into gameplay programming.</p>
-          <ul class="looking">
-            <li><strong>Roles:</strong> Junior Game Developer, Unity Developer, Game Dev Intern</li>
-            <li><strong>Strengths:</strong> Unity, C# scripting, VR interaction, 2D game art</li>
-            <li><strong>Learning now:</strong> Unreal Engine and Blueprints</li>
-          </ul>
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-dark" href="#contact">Get in Touch</a>
         </div>
       </div>
+      <a class="scroll-hint" href="#specializations" aria-label="Scroll to specializations"><svg class="i"><use href="#i-chevron"/></svg></a>
     </section>
 
-    <!-- SKILLS -->
-    <section class="section alt" id="skills">
+    <!-- ===== SPECIALIZATIONS ===== -->
+    <section class="section section-alt" id="specializations">
       <div class="container">
-        <p class="eyebrow">Skills</p>
-        <h2>What I work with</h2>
-        <div class="skills-grid">
-          <div class="card">
-            <h3>Programming</h3>
-            <ul class="tags"><li>C#</li><li>HTML</li><li>CSS</li></ul>
-          </div>
-          <div class="card">
-            <h3>Game engines</h3>
-            <ul class="tags"><li>Unity</li><li>Unreal Engine</li><li>Blueprints</li></ul>
-          </div>
-          <div class="card">
-            <h3>VR development</h3>
-            <ul class="tags"><li>Grab interactables</li><li>Simple interactables</li><li>Teleportation</li></ul>
-          </div>
-          <div class="card">
-            <h3>Art and tools</h3>
-            <ul class="tags"><li>2D game art</li><li>Git and GitHub</li><li>itch.io publishing</li></ul>
-          </div>
+        <h2 class="section-title"><span class="grad">Specializations</span></h2>
+        <div class="spec-grid">
+          <article class="spec reveal">
+            <div class="spec-icon g-purple-pink"><svg class="i"><use href="#i-glasses"/></svg></div>
+            <h3>AR/VR Development</h3>
+            <p>Building VR experiences in Unity with natural interactions: grabbing objects, using interactables and teleport movement.</p>
+          </article>
+          <article class="spec reveal">
+            <div class="spec-icon g-cyan-blue"><svg class="i"><use href="#i-gamepad"/></svg></div>
+            <h3>Unity Development</h3>
+            <p>Making games and interactive apps in Unity with C#, from first prototype to a build published on itch.io.</p>
+          </article>
+          <article class="spec reveal">
+            <div class="spec-icon g-purple-cyan"><svg class="i"><use href="#i-cpu"/></svg></div>
+            <h3>Unreal Engine</h3>
+            <p>Learning Unreal Engine 5 with Blueprints and C++ for high-fidelity, real-time 3D games.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section class="section" id="experience">
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
       <div class="container">
-        <p class="eyebrow">Experience</p>
-        <h2>Hands-on experience</h2>
-        <p class="section-note">Project and game jam work where I held a real role and delivered to a deadline.</p>
+        <h2 class="section-title"><span class="grad">Featured Work</span></h2>
+        <p class="section-sub">Games and VR projects I've built</p>
+
+        <article class="feature reveal">
+          <div class="feature-img">
+            <img src="assets/assistant-bobo.jpg" alt="Assistant Bobo title screen with the robot Bobo in a factory yard" width="960" height="540" loading="lazy">
+          </div>
+          <div class="feature-body">
+            <span class="badge">BYOG 2025 · Game jam</span>
+            <h3>Assistant Bobo</h3>
+            <p>Hunted by giant factory prototypes, Assistant Bobo must scavenge raw materials across a hazardous factory floor. Deliver them to the Scientist to remix them into fuel and rebuild the escape vehicle before the hunters catch up.</p>
+            <ul class="tags"><li>Unity</li><li>C#</li><li>Game jam</li></ul>
+            <div class="links">
+              <a class="btn btn-primary btn-sm" href="https://stjstyles.itch.io/assistant-bobo" target="_blank" rel="noopener"><svg class="i"><use href="#i-play"/></svg> Play on itch.io</a>
+              <a class="btn btn-dark btn-sm" href="https://itch.io/jam/byog/rate/3954116" target="_blank" rel="noopener"><svg class="i"><use href="#i-external"/></svg> Jam entry</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="card project reveal">
+            <div class="project-img">
+              <img src="assets/vr-room.jpg" alt="First-person VR view in Unity of a blue VR hand holding a pistol by a table" width="960" height="540" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3>VR Room</h3>
+              <p>My own VR room built in Unity to practise core VR interaction: picking up and using objects, simple interactables and teleport movement.</p>
+              <ul class="tags"><li>Unity</li><li>VR</li><li>XR Interaction</li></ul>
+              <a class="text-link" href="https://youtu.be/6SnvB6kb-Ww" target="_blank" rel="noopener"><svg class="i"><use href="#i-play"/></svg> Watch the video</a>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project-img forest" aria-hidden="true"><span>Escape Forest</span></div>
+            <div class="project-body">
+              <h3>Escape Forest</h3>
+              <p>A game jam project where I worked as the 2D artist, creating the game's art against the jam deadline.</p>
+              <ul class="tags"><li>2D art</li><li>Game jam</li><li>Teamwork</li></ul>
+              <a class="text-link" href="https://www.artstation.com/saitharunjanardhan" target="_blank" rel="noopener"><svg class="i"><use href="#i-external"/></svg> See my art on ArtStation</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="center"><a class="btn btn-dark" href="https://stjstyles.itch.io/" target="_blank" rel="noopener">View all games on itch.io</a></p>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h2 class="section-title"><span class="grad">Hands-on Experience</span></h2>
+        <p class="section-sub">Roles I've held on real projects with real deadlines</p>
         <ol class="timeline">
-          <li>
-            <div class="tl-head">
-              <h3>2D Artist <span>· BYOG Game Jam</span></h3>
-              <span class="tl-tag">Game jam</span>
-            </div>
-            <p>Created the 2D art for <em>Escape Forest</em> as part of a jam team, working to the jam's time limit.</p>
-            <ul class="tags small"><li>2D art</li><li>Teamwork</li><li>Deadlines</li></ul>
+          <li class="reveal">
+            <div class="tl-top"><h3>Game Developer</h3><span class="tl-tag">BYOG 2025</span></div>
+            <p class="tl-org">Assistant Bobo · Game jam entry</p>
+            <p>Built and published a complete Unity game for the BYOG 2025 game jam, from gameplay scripting in C# to the itch.io release.</p>
           </li>
-          <li>
-            <div class="tl-head">
-              <h3>Unity Developer <span>· Assistant Bobo</span></h3>
-              <span class="tl-tag">Personal project</span>
-            </div>
-            <p>Built a Unity game around Bobo, a robot helper character, and published it on itch.io.</p>
-            <ul class="tags small"><li>Unity</li><li>C#</li><li>itch.io</li></ul>
+          <li class="reveal">
+            <div class="tl-top"><h3>VR Developer</h3><span class="tl-tag">Personal project</span></div>
+            <p class="tl-org">VR Room · Unity</p>
+            <p>Set up a VR scene with grab interactables, simple interactables and teleportation, and recorded a demo video.</p>
           </li>
-          <li>
-            <div class="tl-head">
-              <h3>VR Developer <span>· My VR Space</span></h3>
-              <span class="tl-tag">Personal project</span>
-            </div>
-            <p>Set up a VR room in Unity with grab interactables, simple interactables and teleport movement.</p>
-            <ul class="tags small"><li>Unity</li><li>VR</li><li>XR Interaction</li></ul>
+          <li class="reveal">
+            <div class="tl-top"><h3>2D Artist</h3><span class="tl-tag">Game jam</span></div>
+            <p class="tl-org">Escape Forest · Team project</p>
+            <p>Created the 2D art for a team game jam entry, working to the jam's time limit.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section class="section alt" id="projects">
+    <!-- ===== ABOUT + SKILLS ===== -->
+    <section class="section" id="about">
       <div class="container">
-        <p class="eyebrow">Projects</p>
-        <h2>Featured projects</h2>
-        <div class="projects-grid">
-          <article class="project">
-            <img src="assets/assistant-bobo.jpg" alt="Assistant Bobo title screen with the robot Bobo in a container yard" width="960" height="540" loading="lazy">
-            <div class="project-body">
-              <p class="project-meta">Unity · C#</p>
-              <h3>Assistant Bobo</h3>
-              <p>A Unity game built around Bobo, a robot helper the player works with.</p>
-              <a class="link" href="https://itch.io/jam/byog/rate/3954116" target="_blank" rel="noopener">View on itch.io →</a>
-            </div>
-          </article>
-          <article class="project">
-            <img src="assets/vr-space.jpg" alt="My VR Space scene in Unity at sunset, with a table and teleport points" width="960" height="541" loading="lazy">
-            <div class="project-body">
-              <p class="project-meta">Unity · VR</p>
-              <h3>My VR Space</h3>
-              <p>A VR room for practising core VR interaction: picking up objects, using interactables and teleporting.</p>
-              <a class="link" href="https://youtu.be/6SnvB6kb-Ww" target="_blank" rel="noopener">Watch the video →</a>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-art" aria-hidden="true"><span>Escape Forest</span></div>
-            <div class="project-body">
-              <p class="project-meta">Game jam · 2D Artist</p>
-              <h3>Escape Forest</h3>
-              <p>A game jam entry where I created the 2D art on a short deadline.</p>
-              <a class="link" href="https://www.artstation.com/saitharunjanardhan" target="_blank" rel="noopener">See my art →</a>
-            </div>
-          </article>
+        <h2 class="section-title"><span class="grad">About Me</span></h2>
+        <p class="section-sub">Game developer creating VR experiences and games people can play</p>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <h3>My Journey</h3>
+            <p>I'm a game developer from Bengaluru focused on Unity, C# and VR. I learn by shipping: my BYOG 2025 entry, Assistant Bobo, taught me to take a game from idea to a published build under a deadline.</p>
+            <p>In VR I've built interaction systems for grabbing, using objects and teleporting. I'm now learning Unreal Engine 5, Blueprints and C++, and 3D tools like Blender, Maya and Substance Painter.</p>
+            <p>I'm looking for an internship or full-time role in game development or AR/VR where I can contribute to a team and keep growing.</p>
+          </div>
+          <ul class="facts reveal" aria-label="Quick facts">
+            <li><svg class="i"><use href="#i-pin"/></svg><div><strong>Based in</strong><span>Bengaluru, India</span></div></li>
+            <li><svg class="i"><use href="#i-gamepad"/></svg><div><strong>Focus</strong><span>Unity, C#, VR</span></div></li>
+            <li><svg class="i"><use href="#i-cpu"/></svg><div><strong>Learning</strong><span>Unreal Engine 5, C++</span></div></li>
+            <li class="achieve"><svg class="i"><use href="#i-trophy"/></svg><div><strong>Achievement</strong><span>Published Assistant Bobo for BYOG 2025</span></div></li>
+          </ul>
         </div>
-        <p class="more"><a class="btn btn-outline" href="https://stjstyles.itch.io/" target="_blank" rel="noopener">More games on itch.io</a></p>
+
+        <h3 class="sub-title" id="skills">Skills &amp; Technologies</h3>
+        <div class="skill-grid">
+          <div class="card skill reveal"><h4>Game Engines</h4><ul class="tags"><li>Unity 3D</li><li>Unreal Engine 5</li></ul></div>
+          <div class="card skill reveal"><h4>Programming</h4><ul class="tags"><li>C#</li><li>C++</li><li>Blueprint</li><li>HTML</li><li>CSS</li></ul></div>
+          <div class="card skill reveal"><h4>AR/VR</h4><ul class="tags"><li>Oculus SDK</li><li>Grab interactables</li><li>Teleportation</li></ul></div>
+          <div class="card skill reveal"><h4>3D &amp; Art</h4><ul class="tags"><li>Blender (Beginner)</li><li>Maya</li><li>Substance Painter</li><li>2D game art</li></ul></div>
+          <div class="card skill reveal"><h4>Tools</h4><ul class="tags"><li>Git</li><li>GitHub</li><li>itch.io</li></ul></div>
+        </div>
       </div>
     </section>
 
-    <!-- EDUCATION -->
-    <section class="section" id="education">
+    <!-- ===== EDUCATION =====
+         Hidden until filled in. Replace the text, remove this comment's
+         start and end markers, and add <a href="#education">Education</a> to the nav.
+    <section class="section section-alt" id="education">
       <div class="container">
-        <p class="eyebrow">Education</p>
-        <h2>Education</h2>
-        <!-- TODO: replace with your real degree, college and years -->
+        <h2 class="section-title"><span class="grad">Education</span></h2>
         <div class="card edu">
-          <div>
-            <h3>Your Degree, Your Branch</h3>
-            <p>Your College Name, City</p>
-          </div>
+          <div><h3>Degree, Branch</h3><p>College Name, City</p></div>
           <span class="edu-year">20XX – 20XX</span>
         </div>
       </div>
     </section>
+    -->
 
-    <!-- CONTACT -->
-    <section class="section alt" id="contact">
-      <div class="container contact">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's work together</h2>
-        <p>I'm available for full-time roles, internships and game jam teams. Email is the fastest way to reach me.</p>
-        <div class="email-row">
-          <a class="email" id="email" href="mailto:nsaitharunjanardhan@gmail.com">nsaitharunjanardhan@gmail.com</a>
-          <button class="btn btn-primary" id="copyBtn" type="button">Copy email</button>
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="grad">Get In Touch</span></h2>
+        <p class="section-sub">Have a role or a project in mind? Let's create something together.</p>
+
+        <div class="contact-grid">
+          <div class="card contact-main reveal">
+            <div class="spec-icon g-cyan-blue"><svg class="i"><use href="#i-mail"/></svg></div>
+            <h3>Email me</h3>
+            <p>The fastest way to reach me about roles, internships or projects.</p>
+            <div class="email-row">
+              <a class="email" id="email" href="mailto:nsaitharunjanardhan@gmail.com">nsaitharunjanardhan@gmail.com</a>
+              <button class="btn btn-primary btn-sm" id="copyBtn" type="button">Copy email</button>
+            </div>
+            <div class="opps">
+              <h4>Open to opportunities</h4>
+              <p>Available for internships and full-time positions in game development, AR/VR and interactive experiences.</p>
+              <a class="btn btn-dark btn-sm" id="resumeBtn" href="resume.pdf" target="_blank" rel="noopener" hidden>Download Resume</a>
+            </div>
+          </div>
+
+          <div class="contact-side">
+            <div class="card info reveal">
+              <div class="spec-icon g-purple-pink"><svg class="i"><use href="#i-clock"/></svg></div>
+              <div><h4>Let's chat</h4><p>Saturday – Sunday, 6 PM – 12 AM IST</p></div>
+            </div>
+            <div class="card info reveal">
+              <div class="spec-icon g-purple-cyan"><svg class="i"><use href="#i-pin"/></svg></div>
+              <div><h4>Location</h4><p>Bengaluru, India</p></div>
+            </div>
+            <div class="card reveal">
+              <h4>Connect with me</h4>
+              <ul class="socials">
+                <li><a href="https://github.com/STJstyles" target="_blank" rel="noopener"><svg class="i"><use href="#i-github"/></svg> GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/stjstyles/" target="_blank" rel="noopener"><svg class="i"><use href="#i-linkedin"/></svg> LinkedIn</a></li>
+                <li><a href="https://stjstyles.itch.io/" target="_blank" rel="noopener"><svg class="i"><use href="#i-gamepad"/></svg> itch.io</a></li>
+                <li><a href="https://www.artstation.com/saitharunjanardhan" target="_blank" rel="noopener"><svg class="i"><use href="#i-external"/></svg> ArtStation</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <ul class="socials">
-          <li><a href="https://www.linkedin.com/in/stjstyles/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://github.com/STJstyles" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a href="https://stjstyles.itch.io/" target="_blank" rel="noopener">itch.io</a></li>
-          <li><a href="https://www.artstation.com/saitharunjanardhan" target="_blank" rel="noopener">ArtStation</a></li>
-        </ul>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container footer-inner">
-      <p>© <span id="year">2026</span> N Sai Tharun Janardhan</p>
+      <p>© <span id="year">2026</span> STJ Styles · N Sai Tharun Janardhan</p>
       <a href="#top">Back to top ↑</a>
     </div>
   </footer>

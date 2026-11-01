@@ -1,23 +1,27 @@
-# N Sai Tharun Janardhan | Game Developer Portfolio
+# STJ Styles | Game Developer Portfolio
 
-Personal portfolio for N Sai Tharun Janardhan, an entry-level game developer working in Unity, C# and VR.
+Portfolio of N Sai Tharun Janardhan, a game developer in Bengaluru specializing in VR experiences and Unity.
 
-Built with plain HTML, CSS and JavaScript. No build step.
+Live at **https://stjstyles.me**
+
+Built with plain HTML, CSS and JavaScript. No build step. Hosted on GitHub Pages.
 
 ## Files
 
 - `index.html` – page content
-- `style.css` – layout, colors, light and dark theme
-- `script.js` – mobile menu, theme toggle, copy email, scroll effects
-- `assets/` – project screenshots
-- `resume.pdf` – optional. Add it and a "Download resume" button appears automatically.
+- `style.css` – dark theme, layout and animations
+- `script.js` – mobile menu, active nav link, scroll fade-in, copy email
+- `assets/` – hero background and project screenshots
+- `resume.pdf` – optional. Add it and a "Download Resume" button appears automatically.
+- `CNAME` – custom domain for GitHub Pages. Don't delete it.
 
-## Run locally
+## Editing
 
-Open `index.html` in a browser.
+The Education section is commented out in `index.html`. Fill in your details, remove the comment markers and add an Education link to the nav.
 
 ## Links
 
 - itch.io: https://stjstyles.itch.io/
 - LinkedIn: https://www.linkedin.com/in/stjstyles/
+- GitHub: https://github.com/STJstyles
 - ArtStation: https://www.artstation.com/saitharunjanardhan
